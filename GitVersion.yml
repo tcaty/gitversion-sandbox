@@ -9,4 +9,3 @@ branches:
   develop:
     is-mainline: true
     increment: Patch
-
