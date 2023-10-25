@@ -1,4 +1,5 @@
 # define config here
 
 increment: Patch
-  
+ignore:
+  commits-before: "'2023-10-23T10:18:00'"
