@@ -1,9 +1,6 @@
 # define config here
 
 increment: Patch
+mode: ContinuousDelivery
 ignore:
   commits-before: "2023-10-25T10:18:00"
-
-branches:
-  develop:
-    increment: Patch
