@@ -1,13 +1,11 @@
 # define config here
 
 ignore:
-  commits-before: "2023-10-25T10:30:00"
+  commits-before: "2023-10-25T10:45:00"
 
-next-version: 1.4.1
-mode: Mainline
-  
 branches:
   develop:
+    mode: Mainline
     is-mainline: true
     increment: Patch
 
