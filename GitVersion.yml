@@ -1,8 +1,11 @@
 # define config here
 
-increment: Patch
-mode: ContinuousDelivery
 ignore:
-  commits-before: "2023-10-25T10:18:00"
+  commits-before: "2023-10-25T10:30:00"
 
- 
+mode: Mainline
+  
+branches:
+  develop:
+    is-mainline: true
+    increment: Patch
